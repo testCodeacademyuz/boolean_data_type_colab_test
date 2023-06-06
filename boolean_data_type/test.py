@@ -95,7 +95,8 @@ class TaskOne(CheckSolution):
         isSolved = [test_case["isSolved"] for test_case in test_cases]
         isSolved = all(isSolved)
         self.checking(tg_username, isSolved, self.homework_name)
-
+        print("-" * 50)
+        
         for i, test_case in enumerate(test_cases, 1):
             # is solve emoji
             emoji = "✅" if test_case["isSolved"] else "❌"
@@ -146,6 +147,7 @@ class TaskTwo(CheckSolution):
         isSolved = [test_case["isSolved"] for test_case in test_cases]
         isSolved = all(isSolved)
         self.checking(tg_username, isSolved, self.homework_name)
+        print("-" * 50)
 
         for i, test_case in enumerate(test_cases, 1):
             # is solve emoji
@@ -210,6 +212,7 @@ class TaskThree(CheckSolution):
         isSolved = [test_case["isSolved"] for test_case in test_cases]
         isSolved = all(isSolved)
         self.checking(tg_username, isSolved, self.homework_name)
+        print("-" * 50)
 
         for i, test_case in enumerate(test_cases, 1):
             # is solve emoji
@@ -273,6 +276,7 @@ class TaskFour(CheckSolution):
         isSolved = [test_case["isSolved"] for test_case in test_cases]
         isSolved = all(isSolved)
         self.checking(tg_username, isSolved, self.homework_name)
+        print("-" * 50)
 
         for i, test_case in enumerate(test_cases, 1):
             # is solve emoji
@@ -348,6 +352,7 @@ class TaskFive(CheckSolution):
         isSolved = [test_case["isSolved"] for test_case in test_cases]
         isSolved = all(isSolved)
         self.checking(tg_username, isSolved, self.homework_name)
+        print("-" * 50)
 
         for i, test_case in enumerate(test_cases, 1):
             # is solve emoji
@@ -421,6 +426,7 @@ class TaskSix(CheckSolution):
         isSolved = [test_case["isSolved"] for test_case in test_cases]
         isSolved = all(isSolved)
         self.checking(tg_username, isSolved, self.homework_name)
+        print("-" * 50)
 
         for i, test_case in enumerate(test_cases, 1):
             # is solve emoji
@@ -481,6 +487,7 @@ class TaskSeven(CheckSolution):
         isSolved = [test_case["isSolved"] for test_case in test_cases]
         isSolved = all(isSolved)
         self.checking(tg_username, isSolved, self.homework_name)
+        print("-" * 50)
 
         for i, test_case in enumerate(test_cases, 1):
             # is solve emoji
@@ -555,6 +562,7 @@ class TaskEight(CheckSolution):
         isSolved = [test_case["isSolved"] for test_case in test_cases]
         isSolved = all(isSolved)
         self.checking(tg_username, isSolved, self.homework_name)
+        print("-" * 50)
 
         for i, test_case in enumerate(test_cases, 1):
             # is solve emoji
@@ -642,7 +650,7 @@ class TaskNine(CheckSolution):
         isSolved = [test_case["isSolved"] for test_case in test_cases]
         isSolved = all(isSolved)
         self.checking(tg_username, isSolved, self.homework_name)
-
+        print("-" * 50)
         for i, test_case in enumerate(test_cases, 1):
             # is solve emoji
             emoji = "✅" if test_case["isSolved"] else "❌"
@@ -731,6 +739,7 @@ class TaskTen(CheckSolution):
         isSolved = [test_case["isSolved"] for test_case in test_cases]
         isSolved = all(isSolved)
         self.checking(tg_username, isSolved, self.homework_name)
+        print("-" * 50)
 
         for i, test_case in enumerate(test_cases, 1):
             # is solve emoji
