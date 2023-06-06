@@ -750,16 +750,16 @@ class TaskTen(CheckSolution):
                 print(f"Output: {test_case['answer']}")
                 print(f"Expected: {test_case['expected']}\n")
 
-q1 = TaskOne("task_1", "boolean_data_type")
-q2 = TaskTwo("task_2", "boolean_data_type")
-q3 = TaskThree("task_3", "boolean_data_type")
-q4 = TaskFour("task_4", "boolean_data_type")
-q5 = TaskFive("task_5", "boolean_data_type")
-q6 = TaskSix("task_6", "boolean_data_type")
-q7 = TaskSeven("task_7", "boolean_data_type")
-q8 = TaskEight("task_8", "boolean_data_type")
-q9 = TaskNine("task_9", "boolean_data_type")
-q10 = TaskTen("task_10", "boolean_data_type")
+q1 = TaskOne("bool01", "boolean_data_type")
+q2 = TaskTwo("bool02", "boolean_data_type")
+q3 = TaskThree("bool03", "boolean_data_type")
+q4 = TaskFour("bool04", "boolean_data_type")
+q5 = TaskFive("bool05", "boolean_data_type")
+q6 = TaskSix("bool06", "boolean_data_type")
+q7 = TaskSeven("bool07", "boolean_data_type")
+q8 = TaskEight("bool08", "boolean_data_type")
+q9 = TaskNine("bool09", "boolean_data_type")
+q10 = TaskTen("bool10", "boolean_data_type")
 
 # def main10(a):
 #     # Check that the number "a" is a perfect square.
