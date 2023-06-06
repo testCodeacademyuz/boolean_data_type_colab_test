@@ -1,0 +1,8 @@
+setup.py
+boolean_data_type/__init__.py
+boolean_data_type/test.py
+boolean_data_type.egg-info/PKG-INFO
+boolean_data_type.egg-info/SOURCES.txt
+boolean_data_type.egg-info/dependency_links.txt
+boolean_data_type.egg-info/requires.txt
+boolean_data_type.egg-info/top_level.txt
